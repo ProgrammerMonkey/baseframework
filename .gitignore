@@ -27,3 +27,6 @@ hs_err_pid*
 /mvnw
 /baseframework.iml
 /.gitattributes
+target/classes/application.yml
+target/classes/generatorConfig.xml
+target/classes/logback.xml
