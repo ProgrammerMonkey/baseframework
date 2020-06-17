@@ -40,10 +40,9 @@ public abstract class AbstractBaseController {
 //            //saveLog(http,message.getCode());
 //        }
 //    }
-
-
-    protected Message messageParse(String message) {
+    protected static Message messageParse(String message) {
         return Message.parse(message);
     }
+
 
 }
